@@ -122,7 +122,7 @@ const App = () => (
       width="80%"
       height="80%"
       chartType="Line"
-      loader={<div>Loading Chart</div>}
+      loader={<div>Loading Chart!!!</div>}
       data={dataRes}
       options={{
         chart: {
@@ -135,6 +135,7 @@ const App = () => (
     <Line
       data={config}
       options={options}
+      width={800}
     />
     <Footer />
   </div>
