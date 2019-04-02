@@ -3,6 +3,6 @@
     "name": "my-react-app",
     "alias": "graphicsJS.now.sh",
     "builds": [
-        { "src": "package.json", "config": { "distDir": "build" } }
+        { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
     ]
 }
