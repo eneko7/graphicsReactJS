@@ -135,6 +135,7 @@ const App = () => (
     <Line
       data={config}
       options={options}
+      width={800}
     />
     <Footer />
   </div>
