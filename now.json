@@ -1,3 +1,8 @@
 {
-    "alias": "graphicsJS.now.sh"
+    "version": 2,
+    "name": "my-react-app",
+    "alias": "graphicsJS.now.sh",
+    "builds": [
+        { "src": "package.json", "config": { "distDir": "build" } }
+    ]
 }
