@@ -10,11 +10,6 @@
     "lintFix": "eslint \"./**/*.{js,jsx}\" --fix",
     "prod": "cross-env NODE_ENV=production node server"
   },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint && npm test"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eneko7/reactjs-films-homework.git"
